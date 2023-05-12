@@ -8,7 +8,13 @@
 .addTodos{
     display: flex;
     justify-content: space-evenly;
-    font-family: 'Poppins', sans-serif;
+    flex-direction: column;
+    align-items: center;
+}
+
+.displaytodos {
+    display: flex;
+    justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
 }
